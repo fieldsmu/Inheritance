@@ -38,8 +38,6 @@ namespace inheritance {
 			employees.Add(Marcus);
 			employees.Add(Nancy);
 
-			Marcus.ChangeSalary(40000);
-
 			foreach (Employee employee in employees) {
 				Console.WriteLine(employee.Print());
 			}
